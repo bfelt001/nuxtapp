@@ -1,6 +1,6 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <router-link to="/" class="navbar-brand">My Website</router-link>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <router-link to="/" class="navbar-brand">My Movie Website</router-link>
       <button
         class="navbar-toggler"
         type="button"
@@ -41,6 +41,7 @@
   border-bottom: 1px solid #dee2e6;
   padding: 10px;
   z-index: 999;
+ 
 }
   
   .navbar-brand {

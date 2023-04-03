@@ -17,9 +17,8 @@
                 data-toggle="collapse"
                 :data-target="'#collapseOne'+index"
                 :aria-controls="'collapseOne'+index"
-                title="Click to expand/collapse"
               >
-                {{ movie.title }}
+              Click to expand/collapse
               </button>
             </h2>
             <div
@@ -71,6 +70,10 @@ export default {
 .container {
   max-width: 600px;
   margin: 0 auto;
-  padding: 10rem 1rem;
+  padding: 8rem 1rem 0 0;
+}
+
+.img-thumbnail {
+  box-shadow: 0 0 .1rem 0 rgba(0, 0, 0, 0.38);  
 }
 </style>

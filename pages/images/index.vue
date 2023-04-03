@@ -45,8 +45,13 @@
 
 <style>
 .container {
-  max-width: 700px;
+  max-width: 75%;
   margin: 0 auto;
-  padding: 5rem 1rem;
+  padding: 8rem 1rem 0 0;
+}
+
+img {
+  box-shadow: 5px 4px 10px red;
+  padding: .5rem;
 }
 </style>

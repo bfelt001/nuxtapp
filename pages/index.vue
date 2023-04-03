@@ -6,7 +6,7 @@
       <form id="movieForm" autocomplete="off" @submit.prevent="searchMovie">
         <div class="form-group">
           <label for="movie">Movie Name</label>
-          <input class="form-control" type="text" id="movie" placeholder="Movie" v-model="searchTerm">
+          <input class="form-control" type="text" id="movie" placeholder="Type movie name here" v-model="searchTerm">
         </div>
         <div class="form-group">
           <button class="btn btn-block btn-outline-primary" data-bs-toggle="tooltip" data-bs-placement="right" title="Click here" type="submit">
@@ -17,7 +17,7 @@
 
       <div id="result">
         <div class="card" v-for="movie in movies" :key="movie.imdbID">
-          <img :src="movie.Poster" class="card-img-top" style="width: 18rem;" alt="movie poster">
+          <img :src="movie.Poster" class="card-img-top" style="width: 8rem;" alt="movie poster">
           <div class="card-body">
             <h5 class="card-title">{{ movie.Title }}</h5>
             <p class="card-text">{{ movie.Year }}</p>
@@ -58,8 +58,8 @@ export default {
 
 <style>
 .container {
-  max-width: 600px;
+  max-width: 75%;
   margin: 0 auto;
-  padding: 5rem 1rem;
+  padding: 8rem 1rem 0 0;
 }
 </style>
