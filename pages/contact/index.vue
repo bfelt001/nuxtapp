@@ -71,7 +71,7 @@
   .container {
     max-width: 600px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 8rem 1rem 0 0;
   }
   
   .form-group {
