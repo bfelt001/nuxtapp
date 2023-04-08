@@ -62,7 +62,20 @@ export default {
         }
       ]
     };
-  }
+  },
+  head() {
+      return {
+        title: this.title,
+        meta: [
+          // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+          {
+            hid: 'description',
+            name: 'description',
+            content: 'This is a website about movies and movie lovers. Users will try to guess the top 3 movies from IMDB users.'
+          }
+        ]
+      }
+    },
 };
 </script>
 
