@@ -1,4 +1,16 @@
 # nuxtapp
+-This app uses Nuxt. In this project I have created a movie themed site that allows the user to search a movie and return IMDB data from an API. Other pages in this project demonstrate building of forms, accordions, iterating through an array to display iamges, and mixins, This project demonstrates knowledge in routes, componenets, Yarn, Bootstrap, APIs, and Vue. Netlify was used to deploy this project.
+
+### References
+- [Yarn](https://yarnpkg.com/lang/en/docs/install/)
+- [Nuxt](https://nuxtjs.org/guide/installation)
+- [Axios](https://github.com/axios/axios)
+- [Axios & Vue](https://vuejs.org/v2/cookbook/using-axios-to-consume-apis.html)
+- [Vue Docs](https://vuejs.org/v2/guide/)
+- [Vue DevTools - Chrome](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en)
+- [Vue DevTools - Firefox](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
+- [Bootstrap Vue](https://bootstrap-vue.js.org/docs/)
+- [Netlify](https://www.netlify.com/)
 
 ## Build Setup
 
